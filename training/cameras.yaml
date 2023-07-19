@@ -1,0 +1,11 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ../cameras/images/
+val: ../cameras/images/
+
+# number of classes
+nc: 21
+
+# class names
+names: ['Yolo BB 0 Based Indexing', 'Firefighter', 'Civilian', 'Ladder', 'Fire', 'Window', 'Oxygen Tank', 'Door', 'Gas Tank', 'Fire Truck', 'Firefighter Helmet',
+        'Structural Damage', 'Civilian Car', 'Trees', 'Water Hose', 'Building', 'Fence', 'Stairs', 'Water', 'Firefighter Mask', 'Smoke']
+
